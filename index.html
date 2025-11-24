@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LTX Travel Tour</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <img src="images/logo.png" class="logo" alt="LTX Travel Tour" />
+  
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <video class="hero-video" src="vid/planetakingoffvid.mp4" muted playsinline></video>
+  <div class="hero-content">
+    <h1>LTX Travel & Tour</h1>
+    <h1>Your Trusted Partner for Travel</h1>
+    <p>Flights • Hotels • Umrah • Holiday Packages</p>
+    <a href="#packages" class="cta-btn">View Packages</a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+  <h2>Our Services</h2>
+  <div class="service-grid">
+    
+    <div class="card">
+      <h3>Airline Ticket Booking</h3>
+      <p>Local & international flights at affordable rates.</p>
+    </div>
+
+    <div class="card">
+      <h3>Hotel Booking</h3>
+      <p>Verified hotels worldwide with competitive prices.</p>
+    </div>
+
+    <div class="card">
+      <h3>Umrah Packages</h3>
+      <p>Reliable, well-planned Umrah arrangements.</p>
+    </div>
+
+    <div class="card">
+      <h3>Travel Planning</h3>
+      <p>Complete travel arrangement from start to finish.</p>
+    </div>
+
+    <div class="card">
+      <h3>Airport Shuttle</h3>
+      <p>Safe airport pick-up and drop-off service.</p>
+    </div>
+
+    <div class="card">
+      <h3>24/7 Support</h3>
+      <p>We assist travelers anytime via WhatsApp.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- PACKAGES -->
+<section id="packages" class="packages">
+  <h2>Popular Packages — 10% OFF</h2>
+  <div class="pkg-grid">
+
+    <div class="pkg-card">
+      <img src="images/victoriafalls.jpg"Victoria Falls />
+      <h3>Victoria Falls Holiday Package</h3>
+    </div>
+
+    <div class="pkg-card">
+      <img src="images/dubai.jpg"Dubai />
+      <h3>Dubai Travel Package</h3>
+    </div>
+
+    <div class="pkg-card">
+      <img src="images/zanzibar.jpg"Zanzibar />
+      <h3>Zanzibar Package</h3>
+    </div>
+
+    <div class="pkg-card">
+      <img src="images/umrah.jpg"Umrah />
+      <h3>Umrah Package</h3>
+    </div>
+
+    <div class="pkg-card">
+      <img src="images/aqsa.jpg"aqsa />
+      <h3>Aqsa Holiday Package</h3>
+<div>
+
+    
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <p>South Africa: <strong>+27 7474 01232</strong></p>
+  <p>Eswatini: <strong>+268 7951 0014</strong></p>
+</section>
+
+<!-- WHATSAPP FLOATING BUTTON -->
+<a href="https://wa.me/27747401232?text=Hello%20LTX%20Travel%20Tour%2C%20I%20need%20assistance."
+class="whatsapp-btn">
+  <svg width="32" height="32" viewBox="0 0 24 24" fill="#ffffff">
+    <path d="M20.52 3.48A11.86 11.86 0 0012 .1 11.9 11.9 0 002.1 12a11.72 11.72 0 001.6 6L2 24l6.2-1.64A11.9 11.9 0 0012 23.9 11.9 11.9 0 0012 .1a11.86 11.86 0 008.52 3.38zm-5.6 13.27c-.23-.11-1.35-.67-1.56-.75s-.36-.11-.5.11-.57.75-.7.91-.26.17-.49.06a9.44 9.44 0 01-2.78-1.71 10.3 10.3 0 01-1.9-2.36c-.1-.23 0-.35.08-.46s.11-.11.17-.17a5.39 5.39 0 00.34-.45.42.42 0 000-.42c-.05-.11-.5-1.22-.69-1.67s-.37-.38-.5-.38h-.43a.83.83 0 00-.6.28 2.56 2.56 0 00-.79 1.9 4.67 4.67 0 001 2.48 11.91 11.91 0 004.93 4 16.48 16.48 0 001.63.6 4 4 0 001.84.12 2.88 2.88 0 002-.93 2.33 2.33 0 00.51-1.38c0-.23 0-.34-.06-.39s-.2-.11-.43-.23z"/>
+  </svg>
+</a>
+
+<!-- VIDEO CLICK SCRIPT -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const vid = document.querySelector(".hero-video");
+  vid.addEventListener("click", () => {
+    vid.muted = false;
+    vid.play();
+  });
+});
+</script>
+
+</body>
+</html>
